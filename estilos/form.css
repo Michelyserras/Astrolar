@@ -1,0 +1,153 @@
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    
+
+}
+main h1{
+    text-align: center;
+    font-weight: 500;
+}
+.one img{
+    width: 30%;
+}
+
+.form{
+    width: 40%;
+    border-radius: 10px;
+    text-align: justify;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.form legend{
+    border-radius: 5px; ;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(2, 5, 5);
+    background-color: rgb(209, 209, 143);
+}
+input{
+    width: 300px;
+    border-radius: 5px;
+    height: 20%;
+    border: 0.1px transparent rgb(245, 240, 240);
+    border-style:groove;
+}
+
+input::placeholder{
+    color: rgb(240, 236, 236);
+    font-weight: 400;
+}
+#dtnascimento{
+    width: 40%;
+}
+
+fieldset label{
+    width:300px ;
+    text-align: justify;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+    font-size: 100%;
+    color:rgb(245, 240, 240);
+
+}
+
+#msg{
+    text-align: auto;
+    height: 200px;
+    background-color:rgba(245, 240, 240, 0.103);;
+}
+.btn{
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    flex-direction: row;
+   
+
+}
+.btn2{
+    background-color: rgb(143, 209, 143);
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+    width: 40%;
+    padding: 5px 30px;
+    border: none;
+    height: 31px;
+    border-radius: 10px;
+
+
+}
+.btn1{
+    background-color: rgb(194, 124, 97);
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+    width: 40%;
+    padding: 5px 30px;
+    border: none;
+    height: 31px;
+    border-radius: 10px;
+   
+}
+ 
+/*****************************/
+.valida{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: left;
+    font: 700;
+    font-family: 'poppins', sans-serif;
+}
+.valida legend{
+    text-align: center;
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+}
+.valida div{
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}    
+.valida a{
+    float: right;
+    background-color: rgb(194, 124, 97);
+    color: black;
+    font-weight: 500;
+    width: 40%;
+    text-align: center;
+    padding: 5px 25px;
+    font-size: 13px;
+    height: 32px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.valida button{
+    left: 0;
+    width: 40%;
+    color: black;
+    text-align: center;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(143, 209, 143);
+   
+
+}
+.hidden{
+    display: none;
+}

@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(2, 2, 17); 
+    font-family: 'poppins', sans-serif;
+    color: aliceblue;
+}
+
+/*estilizando header */ 
+
+header{
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 30px 8%;
+  
+}
+body{
+    height: 100vh;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+}
+.title i{
+    color: yellow;
+}
+
+/* deixando o menu na horizontal */
+
+nav  ul{
+   display: flex; 
+   list-style: none;
+  
+   
+}
+nav a{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 30px;
+    text-decoration: none;
+}
+
+nav ul ul{
+    display: none;
+}
+
+nav ul  li:hover>ul{
+    display:block;
+}
+
+nav li a:hover{
+    color: yellow;
+}
+
+/* fim menu */
+
+/* estilizando o conteúdo principal */
+
+/* article 1 */
+.one{
+    display: flex;
+
+}
+
+.one p{
+    width: 40%;
+    padding: 15px 70px;
+  
+}
+.one p a{
+    border: solid 1px rgba(128, 128, 128, 0.726);
+    padding: 15px 70px;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    text-transform: none;
+}
+.one a:hover {
+    background-color: rgb(209, 209, 122);
+    color: rgb(2, 2, 17);
+
+}
+/* article 1 fim */
+
+.hidden{
+    display: none; 
+    /* fazendo a seção 2 sumir para que ao clicar no link ela apareça */
+}
+
+/* article 2 */
+
+.two{
+    display: flex;
+    align-items: center;
+    
+}
+
+.two figure{
+    margin-left: 20%;
+}
+
+.two img{
+    width: 90%;
+    height: 100%;
+    max-width: 100%;
+    
+}
+.two div{
+    width: 70%;
+    font-size: 15px;
+    padding: 15px 70px;
+}
+.two a{
+    border: solid 1px rgba(128, 128, 128, 0.726);
+    padding: 15px 70px;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    text-transform: none;
+}
+.two a:hover{
+    background-color: rgb(209, 209, 122);
+    color: rgb(2, 2, 17);
+}
+
+/* article 2 fim */
+
+/* article 3 */
+.three h2{
+    text-align: center;
+    font-weight: 500;
+}
+.three ol{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.three li{
+    width: 30%;
+    justify-content: space-around;
+}
+.three li i{
+    align-items: center;
+}
+
+#li1{
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    border-width: 30%;
+    background-color:rgb(145, 122, 197);
+    
+}
+#li1 i{
+    background-color: rgb(145, 122, 197);
+    color: black;
+    font-size: 20px;
+}
+
+#li2{
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    border-width: 30%;
+    background-color:rgb(209, 209, 122);
+    
+}
+#li2 i{
+    background-color: rgb(209, 209, 122);
+    color: black;
+    font-size: 20px;
+}
+
+#li3{
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    border-width: 30%;
+    background-color:rgb(122, 150, 209);  
+}
+#li3 i{
+    background-color: rgb(122, 150, 209);
+    color: black;
+    font-size: 20px;
+}
+/* article 3 fim */
+
+/* article 4 */
+.four{
+    text-align: center;
+}
+.four h3{
+    font-weight: lighter;
+}
+.four div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.four fieldset{
+    background-color: rgb(218, 132, 132);
+    color: #000;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.four fieldset legend{
+    text-align: center;
+    border-radius: 60%;
+    background-color: rgb(218, 132, 132);
+   
+}
+.four img{
+    width: fit-content;
+   border-radius: 60%;
+   background-color: rgb(218, 132, 132);
+}
+.four a{
+    border: solid 1px rgba(128, 128, 128, 0.726);
+    padding: 15px 70px;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+}
+.four a:hover{
+    background-color: rgb(209, 209, 122);
+    color: rgb(2, 2, 17);
+
+}
+
+/* article 4 fim */
+
+/* estilizando o aside */
+aside{
+    display: inline-flex;
+    justify-content: right;
+    width: 20%;
+   
+}
+aside a{
+    float: right;
+    
+}
+aside a img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 135px; /* Ajuste o tamanho da imagem conforme necessário */
+    z-index: 9999;
+    border-radius: 100%;
+    border-width: fit-content;
+}
+footer{
+    position: sticky;
+    width: 100%;
+
+}
+address{
+    font-size: 70%;
+    font-weight: 400;
+
+}
+    

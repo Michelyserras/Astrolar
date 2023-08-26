@@ -1,0 +1,87 @@
+.one img{
+    margin-left: 5%;
+}
+.one p{
+    margin-left: 10%;
+}
+.one{
+    align-items: center;
+}
+
+.two{
+    justify-content: center;
+}
+.two div{
+    width: 40%;
+
+}
+
+.two video{
+    width: 40%;
+
+}
+.three{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+}
+
+.three fieldset legend{
+    text-align: center;
+    border-radius: 70%;
+   
+}
+.three fieldset{
+    color: #000;
+    width: 30%;
+    height: 50%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.valores li{
+    width: fit-content;
+}
+.first{
+    background-color: rgb(209, 209, 122);
+
+}
+.first p{
+   background-color: rgb(209, 209, 122);
+   color:#000;
+   font-size: 15px;
+}
+.first img{
+    width: fit-content;
+    border-radius: 50%;
+  
+}
+
+.second{
+    background-color: rgb(61, 151, 61);
+}
+.second p{
+    background-color: rgb(61, 151, 61);
+    color: #000;
+    font-size: 15px;
+}
+.second img{
+    width: fit-content;
+    border-radius: 50%;
+    
+
+}
+.third{
+    background-color: rgb(164, 113, 212);
+}
+.third ul{
+    background-color: rgb(164, 113, 212);
+}
+.third ul li{
+    background-color: rgb(164, 113, 212);
+    color: #000;
+    font-size: 15px;
+}
+.third img{
+    width: fit-content;
+    border-radius: 50%;
+}

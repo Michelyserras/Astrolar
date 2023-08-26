@@ -1,0 +1,33 @@
+.one img{
+    border-radius: 10px;
+    width: 40%;
+
+}
+.one{
+   justify-content: center;
+}
+
+.three ol{
+    display: flex;
+    justify-content:center;
+    width: fit-content;
+}
+#li1{
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid white;
+}
+#li2{
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid white;
+}
+#li3{
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid white;
+}
+li img{
+    width: 40%;
+    background-color: none;
+}

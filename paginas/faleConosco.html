@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--adicionando fontes novas-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;1,100;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> <!--linkando pasta de icones do github-->
+    <link rel="stylesheet" href="../estilos/layout.css" type="text/css">
+    <link rel="shortcut icon" href="../imagens/inicio/favicon.ico">
+    <link rel="stylesheet" href="../estilos/form.css" type="text/css">
+    <script src="../scripts/avancar.js" type="text/Javascript"></script>
+    <script src="../scripts/validarDados.js" type="text/Javascript"></script>
+    
+    <title>AstroLar</title>
+</head>
+<body>
+
+    <header>
+       <a href="../index.html" class="title"> <i class='bx bxs-moon bx-tada' ></i>AstroLar</a>
+        <nav>
+            <ul>
+                <li><a href="../paginas/quemSomos.html">Quem somos</a></li>
+                <li><a href="#">Empreendimentos</a>
+                    <ul>
+                        <li><a href="../paginas/empreendimento.html">Terrenos na Lua</a></li>
+                    </ul>
+                </li>
+                <li><a href="../paginas/faleConosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <br><br><br><br>
+
+    <main>
+        <br><br>
+        <h1>Fale conosco:</h1>
+
+        <section>
+            <article class="one" id="one">
+                <fieldset class="form">
+                    <legend>Informações para contato</legend>
+                    <form action="#" method="post" id="frmCadastro">
+                        <label for="nome">Nome:</label>
+                        <br>
+                        <input type="text" id="nome" placeholder="Seu nome aqui..." required>
+                        <br>
+                        <label for="email">E-mail</label>
+                        <br>
+                        <input type="email" id="email" required>
+                        <br>
+                        <label for="dtnasc">Data de nascimento:</label>
+                        <br>
+                        <input type="date" name="dtnascimento" id="dtnascimento" required>
+                        <br>
+                        <label for="tel">Celular para contato:</label>
+                        <br>
+                        <input type="tel" id="cel" placeholder="Número de celular"  required>
+                        <br>
+                        <label for="msg">Mensagem:</label>
+                        <br>
+                        <textarea name="msg" id="msg" cols="45" rows="45"></textarea>
+                        <br><br>
+                        <div class="btn">
+                            <button type="reset" class="btn1">Limpar</button>
+                            <button type="button" onclick="confirmarDados(event)" class="btn2" href="#section2">Confirmar</button>
+                        </div>
+    
+                      </form>
+                </fieldset>
+            
+                <img src="../imagens/form/astronauta12.png" alt="astronauta">
+            </article>
+        </section>
+       
+        <section id="section2" class="hidden">
+         <br><br><br><br><br><br>
+
+         <article class="two" id="two">
+            
+            <fieldset class="valida">
+                <legend>Confirme seus dados</legend>
+                Nome:  <label id="nomeCad"></label>
+                <br>
+                E-mail <label id="emailCad"></label>
+                <br>
+                Data de nascimento: <label id="dtCad"></label>
+                <br>
+                Celular para contato: <label id="celCad"></label>
+                <br>
+                Mensagem: <label id="msgCad"></label>
+                <br><br><br><br><br><br>
+
+                <div>
+                    <a href="../paginas/faleConosco.html" >Corrigir</a>
+                    <button type="button" onclick="avancar()" id="btn">Avançar</button>
+                </div>
+
+            </fieldset>
+
+           
+           
+        </article>
+        <br><br>
+        </section>    
+    </main>
+
+    <aside>
+        <a href="#"><img src="../imagens/inicio/page_up-removebg-preview.png" alt="pageUP"></a>
+    </aside>
+    <br><br>
+
+
+
+<hr width="100%" size="1px">
+    <footer>
+        <address>
+            <p>
+                Rua Vereador João Moraes de Arruda, 300<br>
+                Boituva, São Paulo, 18558-046<br>
+                <a href="mailto:s.michely@aluno.ifsp.edu.br">s.michely@aluno.ifsp.edu.br</a>
+                <br>
+                &copyAstroLar, 2023
+            </p>
+        </address>
+    </footer>
+    
+</body>
+</html>
